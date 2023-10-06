@@ -39,7 +39,7 @@ class TurtleScanner:
             #print(ports)
         self.slow = input("slow ride? Y/N: ").strip().lower()
         if self.slow == 'y':
-             print("maybe go make some coffee, this will take a while...")
+             print("maybe go make some coffee, this will take a while...')
 
     def probe(self, port, result=1):
         try:
